@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="Página Inicial.html">Página Inicial</a></li>
+          <li><a href="Sobre.html">Sobre</a></li>
+          <li><a href="Horário.html">Horário</a></li>
+          <li><a href="Contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <!-- Aqui vai o seu header -->
+          <img src="Contato.png" />
+        </div>
+
+        <div class="content">
+          <!-- Aqui vai o seu conteúdo -->
+          <strong><p>Entre em contato</p></strong>
+          <img src="whatsapp (1).png" width="30" />
+          <p>(21) 00000-0000 (somente whatsapp, não atendemos ligações)</p>
+          <img src="telefone.png" width="30" />
+          <p>(21) 0000-0000</p>
+          <br />
+          <span><b>Nossa Unidade</b></span>
+          <p>Av. Nossa Sra. de Copacabana, 000 -</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.4426059758234!2d-43.1864773!3d-22.9707463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd54f1e053153%3A0x6b309b779eedfc1c!2sAv.%20Nossa%20Sra.%20de%20Copacabana%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1695999724104!5m2!1spt-BR!2sbr"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <form onsubmit="" method="get"></form>
+          <br />
+          <label>Nome:</label><input type="text" name="name" /><br />
+          <label>E-mail:</label><input type="text" name="name" /><br />
+          <label>Assunto:</label><input type="text" name="subject" /><br />
+          <label>Mensagem:</label><br />
+          <textarea rows="20" cols="50" name="message"></textarea><br />
+          <button type="submit">Enviar</button>
+        </div>
+
+        <div class="footer">
+          <!-- Aqui vai o seu rodapé -->
+          <span><b>Nossas Redes Sociais</b></span
+          ><br />
+          <br />
+          <a href="//www.instagram.com"
+            ><img
+              src="instagram.png"
+              class="media-object img-responsive img-thumbnail"
+          /></a>
+          <a href="//www.facebook.com"
+            ><img
+              src="facebook.png"
+              class="media-object img-responsive img-thumbnail"
+          /></a>
+          <br />
+          <br />
+          <br />
+          <br />
+          <small class="rodape-direitos"
+            >Copyright © 2023 – Todos os Direitos</small
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
