@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="Página Inicial.html">Página Inicial</a></li>
+          <li><a href="Sobre.html">Sobre</a></li>
+          <li><a href="Horário.html">Horário</a></li>
+          <li><a href="Contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <!-- Aqui vai o seu header -->
+          <img src="Atendimento.png" />
+        </div>
+
+        <div class="content">
+          <!-- Aqui vai o seu conteúdo -->
+          <p>
+            Na Clínica Pediátrica, oferecemos consultas acessíveis e cuidados de
+            qualidade para seu filho. Nossos exames são conduzidos com precisão
+            e eficiência. Além disso, disponibilizamos um programa de vacinação
+            completo para proteger a saúde da criança.
+          </p>
+          <table border="1" width="500" height="250" align="center">
+            <thead align="center">
+              <tr>
+                <th>Dia da Semana</th>
+                <th>Horário</th>
+                <th>Consulta</th>
+                <th>Preço</th>
+              </tr>
+            </thead>
+            <tbody align="center">
+              <tr>
+                <td>Segunda à Sexta</td>
+                <td>8:00 - 18:00</td>
+                <td>Pediatras</td>
+                <td>R$100</td>
+              </tr>
+              <tr>
+                <td>Segunda - Quarta - Sexta</td>
+                <td>8:00 - 18:00</td>
+                <td>Neuropediatria</td>
+                <td>R$145</td>
+              </tr>
+              <tr>
+                <td>Segunda à Sexta</td>
+                <td>8:00 - 18:00</td>
+                <td>Psicopedagogia</td>
+                <td>R$160</td>
+              </tr>
+              <tr>
+                <td>Quarta à Sexta</td>
+                <td>8:00 - 18:00</td>
+                <td>Psicologia</td>
+                <td>R$110</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <small align="center"
+            >*O preço das vacinas variam, entre em contato para mais
+            informações.</small
+          >
+        </div>
+
+        <div class="footer">
+          <!-- Aqui vai o seu rodapé -->
+          <span><b>Nossas Redes Sociais</b></span
+          ><br />
+          <a href="//www.instagram.com"
+            ><img
+              src="instagram.png"
+              class="media-object img-responsive img-thumbnail"
+          /></a>
+          <a href="//www.facebook.com"
+            ><img
+              src="facebook.png"
+              class="media-object img-responsive img-thumbnail"
+          /></a>
+          <br />
+          <br />
+          <br />
+          <br />
+          <small class="rodape-direitos"
+            >Copyright © 2023 – Todos os Direitos</small
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
