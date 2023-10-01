@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="Página Inicial.html">Página Inicial</a></li>
+          <li><a href="Sobre.html">Sobre</a></li>
+          <li><a href="Horário.html">Horário</a></li>
+          <li><a href="Contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <!-- Aqui vai o seu header -->
+          <img src="Sobre.png" />
+        </div>
+
+        <div class="content">
+          <!-- Aqui vai o seu conteúdo -->
+          <p>Sobre Nós</p>
+          <br />
+          <p>
+            A Clínica Pediátrica Feliz Infância teve sua jornada iniciada em
+            2002 com a missão inabalável de ser um farol de esperança e cuidado
+            para as famílias que valorizam a saúde e o bem-estar de seus filhos.
+            Nossa equipe de especialistas é movida por uma paixão profunda em
+            fornecer cuidados de saúde exclusivos para crianças e adolescentes,
+            desde o momento do nascimento até a transição para a adolescência.
+          </p>
+          <p>
+            Comprometidos com a construção de um ambiente acolhedor, seguro e
+            compassivo, a Clínica Pediátrica Feliz Infância tem sido um refúgio
+            onde as crianças se sentem à vontade e os pais depositam a sua
+            confiança. Contamos com uma equipe experiente composta por
+            pediatras, enfermeiros e profissionais de saúde infantil, oferecendo
+            uma gama completa de serviços, desde consultas de rotina,
+            imunizações e exames pediátricos até tratamentos para doenças
+            pediátricas, tanto comuns quanto complexas.
+          </p>
+          <p>
+            Acreditamos firmemente na prevenção e educação em saúde, fornecemos
+            orientações práticas aos pais sobre nutrição, desenvolvimento
+            infantil, segurança e muito mais. Nosso objetivo é ajudar as
+            famílias a nutrir um crescimento saudável e um futuro brilhante para
+            seus filhos.
+          </p>
+          <p>
+            Na Clínica Pediátrica Feliz Infância, valorizamos a singularidade de
+            cada criança, comprometendo-nos a fornecer cuidados personalizados
+            que atendam às suas necessidades individuais. Priorizamos a
+            comunicação aberta e a colaboração com os pais, garantindo que o
+            atendimento seja sempre o melhor possível.
+          </p>
+          <p>
+            Convidamos você a agendar uma consulta hoje mesmo e se tornar parte
+            de nossa comunidade dedicada ao cuidado infantil. Seu filho merece o
+            melhor, e nós estamos aqui para proporcionar isso. Juntos, podemos
+            construir um futuro mais saudável e feliz para todas as crianças,
+            celebrando a felicidade da infância em cada passo do caminho.
+          </p>
+          <img src="médicos.jpg" alt="Parte da equipe" width="945" />
+        </div>
+
+        <div class="footer">
+          <!-- Aqui vai o seu rodapé -->
+          <span><b>Nossas Redes Sociais</b></span
+          ><br />
+          <a href="//www.instagram.com"
+            ><img
+              src="instagram.png"
+              class="media-object img-responsive img-thumbnail"
+          /></a>
+          <a href="//www.facebook.com"
+            ><img
+              src="facebook.png"
+              class="media-object img-responsive img-thumbnail"
+          /></a>
+          <br />
+          <br />
+          <br />
+          <br />
+          <small class="rodape-direitos"
+            >Copyright © 2023 – Todos os Direitos</small
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
